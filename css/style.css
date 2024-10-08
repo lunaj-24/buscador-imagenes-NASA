@@ -1,0 +1,23 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+
+.card {
+    border-radius: 0.5rem;
+    height: 60%;
+}
+
+.list-group {
+  width: auto;
+  height: 100%;
+  overflow: auto; /*Barra para ocultar desbordamiento y ver el contenido dentro de la tarjeta sin alterar la imagen */
+}
+
+.card img {
+    border-radius: 0.5rem;
+}
+
+/*Texto de la fecha mas pequeno*/
+.text-muted {  
+  font-size: 0.7em; 
+}
